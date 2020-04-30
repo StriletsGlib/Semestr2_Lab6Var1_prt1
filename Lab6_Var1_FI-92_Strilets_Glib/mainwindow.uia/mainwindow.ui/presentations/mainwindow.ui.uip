@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIP version="6" >
+	<Project >
+		<ProjectSettings author="" company="" presentationWidth="1920" presentationHeight="1080" maintainAspect="False" preferKtx="False" flipCompressedTextures="False" >
+			<CustomColors count="16" >#ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff #ffffff</CustomColors>
+		</ProjectSettings>
+		<Graph >
+			<Scene id="Scene_u40237" >
+				<Layer id="Layer_u14072" variants="" >
+					<Camera id="Camera_u12575" />
+					<Light id="Light_u33851" />
+					<Model id="Rectangle_u11061" variants="" >
+						<ReferencedMaterial id="Default_u26534" name="Default" />
+					</Model>
+				</Layer>
+				<Material id="__u63133" >
+					<Material id="materials//Default_u45909" />
+				</Material>
+			</Scene>
+		</Graph>
+		<Logic >
+			<State name="Master Slide" component="#Scene_u40237" >
+				<Add ref="#Layer_u14072" />
+				<Add ref="#Camera_u12575" />
+				<Add ref="#Light_u33851" />
+				<Add ref="#__u63133" name="__Container" />
+				<Add ref="#materials//Default_u45909" name="materials//Default" />
+				<State id="Scene-Slide1_u45021" name="Slide1" >
+					<Add ref="#Rectangle_u11061" name="Rectangle" position="-69.784 -66.1362 -338.802" rotation="36.5979 306.66 5.42864" sourcepath="#Rectangle" />
+					<Add ref="#Default_u26534" name="Default" referencedmaterial="#materials//Default_u45909" sourcepath="/Default" />
+				</State>
+			</State>
+		</Logic>
+	</Project>
+</UIP>

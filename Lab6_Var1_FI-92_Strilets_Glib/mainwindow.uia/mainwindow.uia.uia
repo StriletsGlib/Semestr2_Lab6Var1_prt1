@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<application xmlns="http://qt.io/qt3dstudio/uia">
+    <assets initial="mainwindow.uia">
+        <presentation id="mainwindow.uia" src="presentations/mainwindow.uia.uip"/>
+    </assets>
+</application>
